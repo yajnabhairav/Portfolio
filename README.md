@@ -40,13 +40,10 @@ High-end personal portfolio and systems engineering showcase for **Adarsh Naraya
 3. **Projects Showcase**:
    - **Mini Compiler Project (2025)**: Lexical analyzer, tokenization parser, syntax checking, and symbol validation in modern C++.
    - **Online Payment Fraud Detection System (2024)**: High-accuracy anomaly detection pipeline with velocity z-scoring, haversine distance filtering, and robust preprocessing.
-4. **Verified Credentials & Badges**:
-   - Direct verification links to official Credly AWS badges.
-5. **Interactive Inquiry Vault & Contact Engine**:
-   - Asynchronous inquiry submission with client validation and direct local vault viewer + CSV export for Adarsh to track recruiter messages.
-   - Direct 1-click recruiter communication buttons (Phone call, WhatsApp, and pre-filled mailto).
-6. **Codebase Download**:
-   - Download the full standalone project as a `.zip` directly from the UI.
+5. **Direct Recruiter Communication Channels**:
+   - 1-click direct email dispatch (Gmail Web & default mail app) addressing Adarsh's inbox directly.
+   - 1-click direct phone call (+91-7667714004) and WhatsApp messaging.
+   - Verified LinkedIn and GitHub profiles.
 
 ---
 
@@ -94,19 +91,18 @@ npm run start
 
 ```
 ├── public/
-│   ├── images/
-│   │   └── adarsh-narayan.jpg   # Profile portrait
-│   └── adarsh-narayan-portfolio.zip
+│   └── images/
+│       ├── profile.jpg          # Profile portrait
+│       └── adarsh-narayan.jpg
 ├── src/
 │   ├── components/
-│   │   ├── Navbar.tsx             # Navigation header & 1-click ZIP download
+│   │   ├── Navbar.tsx             # Navigation header
 │   │   ├── Hero.tsx               # Hero banner, bio & interactive C++ terminal
 │   │   ├── Three3DBackground.tsx  # Interactive Three.js WebGL canvas
 │   │   ├── EducationGrid.tsx      # B.Tech degree & AWS Credly badges
 │   │   ├── SkillsMatrix.tsx       # Categorized technical skill badges
 │   │   ├── ProjectsFeed.tsx       # Dynamic project cards & source code modal
-│   │   ├── ContactSection.tsx     # Direct hire channels & inquiry form
-│   │   ├── InquiryVaultModal.tsx  # Stored recruiter inquiries viewer & export
+│   │   ├── ContactSection.tsx     # Direct hire channels & direct email dispatcher
 │   │   ├── ResumeModal.tsx        # Structured online resume / CV sheet
 │   │   ├── SystemHealthBadge.tsx  # API connection status monitor
 │   │   └── Toast.tsx              # Animated alerts

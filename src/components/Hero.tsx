@@ -14,8 +14,7 @@ import {
   Play,
   FileText,
   MessageSquare,
-  Sparkles,
-  Download
+  Sparkles
 } from 'lucide-react';
 
 const ROLES = [
@@ -186,16 +185,6 @@ module alu_stage (
                 <FileText className="w-4 h-4 text-blue-400" />
                 <span>View Resume / CV</span>
               </button>
-
-              <a
-                href="/adarsh-narayan-portfolio.zip"
-                download="adarsh-narayan-portfolio.zip"
-                className="flex items-center gap-2 px-4 py-3 text-xs sm:text-sm font-semibold text-emerald-300 bg-emerald-950/40 border border-emerald-800/60 rounded-xl hover:bg-emerald-900/50 hover:text-white transition-all active:scale-95"
-                title="Download complete portfolio source code as .ZIP"
-              >
-                <Download className="w-4 h-4 text-emerald-400" />
-                <span>Download Code (.ZIP)</span>
-              </a>
 
               <button
                 onClick={onScrollToProjects}

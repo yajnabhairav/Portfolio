@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, FileText, Download } from 'lucide-react';
+import { Phone, Mail, FileText } from 'lucide-react';
 
 interface NavbarProps {
   onContactClick: () => void;
@@ -39,16 +39,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onContactClick, onOpenResume }) 
 
         {/* Zone 3: Actions */}
         <div className="flex items-center gap-2.5 shrink-0">
-          <a
-            href="/adarsh-narayan-portfolio.zip"
-            download="adarsh-narayan-portfolio.zip"
-            className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-emerald-300 hover:text-white bg-emerald-950/40 border border-emerald-800/60 rounded-lg hover:bg-emerald-900/40 transition-colors whitespace-nowrap shrink-0"
-            title="Download full project source code as .ZIP"
-          >
-            <Download className="w-3.5 h-3.5 text-emerald-400" />
-            <span>Download ZIP</span>
-          </a>
-
           <button
             onClick={onOpenResume}
             className="hidden md:flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-slate-300 hover:text-white bg-slate-900 border border-slate-800 rounded-lg hover:bg-slate-800 transition-colors whitespace-nowrap shrink-0"

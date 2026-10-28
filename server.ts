@@ -35,12 +35,8 @@ async function startServer() {
   app.use('/api/inquiries', inquiryRoutes);
   app.use('/api/system', systemRoutes);
 
-  // Serve public directory and download endpoints
+  // Serve public directory
   app.use(express.static(path.resolve(__dirname, 'public')));
-  app.get('/adarsh-narayan-portfolio.zip', (_req, res) => {
-    const zipPath = path.resolve(__dirname, 'public/adarsh-narayan-portfolio.zip');
-    res.download(zipPath, 'adarsh-narayan-portfolio.zip');
-  });
 
   // Fallback for missing API routes
   app.use('/api/*', (req, res) => {
