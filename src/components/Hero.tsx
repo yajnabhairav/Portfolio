@@ -14,7 +14,8 @@ import {
   Play,
   FileText,
   MessageSquare,
-  Sparkles
+  Sparkles,
+  Download
 } from 'lucide-react';
 
 const ROLES = [
@@ -183,8 +184,18 @@ module alu_stage (
                 className="flex items-center gap-2 px-5 py-3 text-xs sm:text-sm font-semibold text-slate-200 bg-slate-900/90 border border-slate-700/80 rounded-xl hover:bg-slate-800 hover:border-slate-600 transition-all active:scale-95"
               >
                 <FileText className="w-4 h-4 text-blue-400" />
-                <span>View Resume / CV Sheet</span>
+                <span>View Resume / CV</span>
               </button>
+
+              <a
+                href="/adarsh-narayan-portfolio.zip"
+                download="adarsh-narayan-portfolio.zip"
+                className="flex items-center gap-2 px-4 py-3 text-xs sm:text-sm font-semibold text-emerald-300 bg-emerald-950/40 border border-emerald-800/60 rounded-xl hover:bg-emerald-900/50 hover:text-white transition-all active:scale-95"
+                title="Download complete portfolio source code as .ZIP"
+              >
+                <Download className="w-4 h-4 text-emerald-400" />
+                <span>Download Code (.ZIP)</span>
+              </a>
 
               <button
                 onClick={onScrollToProjects}
@@ -262,8 +273,15 @@ module alu_stage (
                 <div className="relative shrink-0">
                   <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-500 opacity-30 blur-sm" />
                   <img
-                    src="/images/adarsh-narayan.jpg"
+                    src="/images/profile.jpg"
                     alt="Adarsh Narayan"
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      if (!target.dataset.triedBackup) {
+                        target.dataset.triedBackup = 'true';
+                        target.src = '/images/adarsh-narayan.jpg';
+                      }
+                    }}
                     className="relative w-32 h-40 sm:w-36 sm:h-44 object-cover rounded-xl border border-blue-400/50 shadow-md"
                   />
                   <div className="absolute bottom-2 right-2 px-1.5 py-0.5 rounded bg-emerald-950/90 border border-emerald-500 text-[10px] font-mono font-bold text-emerald-300">

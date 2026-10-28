@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Phone, ArrowUp } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, ArrowUp, Download } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -46,6 +46,14 @@ export const Footer: React.FC = () => {
             >
               <Linkedin className="w-3.5 h-3.5 text-blue-400" />
               <span>LinkedIn</span>
+            </a>
+            <a
+              href="/adarsh-narayan-portfolio.zip"
+              download="adarsh-narayan-portfolio.zip"
+              className="hover:text-emerald-400 transition-colors flex items-center gap-1.5 text-emerald-400 font-medium"
+            >
+              <Download className="w-3.5 h-3.5 text-emerald-400" />
+              <span>Download ZIP</span>
             </a>
             <a
               href="https://github.com/yajnabhairav"
