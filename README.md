@@ -14,7 +14,7 @@ High-end personal portfolio and systems engineering showcase for **Adarsh Naraya
 - **Name:** Adarsh Narayan
 - **Location:** Hyderabad, India
 - **Email:** [Adarshnarayanmzp44@gmail.com](mailto:Adarshnarayanmzp44@gmail.com)
-- **Phone / WhatsApp:** [+91-7667714004](tel:+917667714004) / [Chat on WhatsApp](https://wa.me/917667714004)
+- **(https://wa.me/917667714004)
 - **GitHub:** [github.com/yajnabhairav](https://github.com/yajnabhairav)
 - **LinkedIn:** [linkedin.com/in/adarsh-narayan-397b0425a](https://www.linkedin.com/in/adarsh-narayan-397b0425a)
 
@@ -22,7 +22,7 @@ High-end personal portfolio and systems engineering showcase for **Adarsh Naraya
 - **Degree:** B.Tech in Computer Science and Engineering (2022 – 2026)
 - **Institution:** KIIT University, Bhubaneswar
 - **Minor Specialization:** VLSI & Embedded Systems
-- **Academic Standing:** CGPA 8.39
+
 - **Certifications:**
   - [AWS Cloud Practitioner Essentials (Cloud Foundations)](https://www.credly.com/badges/858870a1-3995-4ef0-9b27-8cbad1d9081a/public_url)
   - [AWS Cloud Architecture Fundamentals](https://www.credly.com/badges/2c7621c6-d485-419c-b0f9-7931aa27a7bb/public_url)
