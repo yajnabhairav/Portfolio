@@ -262,7 +262,7 @@ module alu_stage (
                 <div className="relative shrink-0">
                   <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-500 to-emerald-500 opacity-30 blur-sm" />
                   <img
-                    src="/assets/aistudio/6aaab2f549a28_download_764401e0.jpg"
+                    src="/images/adarsh-narayan.jpg"
                     alt="Adarsh Narayan"
                     className="relative w-32 h-40 sm:w-36 sm:h-44 object-cover rounded-xl border border-blue-400/50 shadow-md"
                   />

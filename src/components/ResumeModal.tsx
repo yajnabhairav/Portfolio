@@ -49,7 +49,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
         {/* Profile Card Lockup */}
         <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 pb-6 border-b border-slate-800">
           <img
-            src="/assets/aistudio/6aaab2f549a28_download_764401e0.jpg"
+            src="/images/adarsh-narayan.jpg"
             alt="Adarsh Narayan"
             className="w-28 h-36 object-cover rounded-xl border-2 border-blue-500/50 shadow-lg shadow-blue-500/10 shrink-0"
           />
